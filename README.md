@@ -43,7 +43,7 @@ Small tool to make bench from portion of code
     ```
 
     ```php
-    Ruian\Benchmark\Bintje->getResults()
+    Ruian\Benchmark\Bintje->results()
     //When a bench is finished call this method to obtain results
     //@return array
     ```

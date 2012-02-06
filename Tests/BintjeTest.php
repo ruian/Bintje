@@ -10,7 +10,7 @@ class BintjeTest extends \PHPUnit_Framework_TestCase
         echo "hello world";
         $bench->stop();
 
-        $this->assertTrue(is_array($bench->getResults()));
+        $this->assertTrue(is_array($bench->results()));
     }
 
     public function testStartWithAdd()
@@ -24,7 +24,7 @@ class BintjeTest extends \PHPUnit_Framework_TestCase
         echo 'hello world';
         $bench->stop();
         
-        $this->assertEquals(3, count($bench->getResults()));
+        $this->assertEquals(3, count($bench->results()));
     }
 
     public function testLog()
@@ -52,6 +52,6 @@ class BintjeTest extends \PHPUnit_Framework_TestCase
         $bench->endwait();
         $bench->stop();
 
-        $this->assertEquals(1, count($bench->getResults()));
+        $this->assertEquals(1, count($bench->results()));
     }
 }

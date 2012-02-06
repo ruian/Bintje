@@ -82,7 +82,7 @@ class Bintje
      *
      * @return array
      **/
-    public function getResults()
+    public function results()
     {
         return $this->results;
     }

@@ -31,4 +31,7 @@ foreach ($test as $value) {
 
 // Stop bench and write it into bintje.log 
 $bench->stop();
+
+// Show results
+var_dump($bench->results());
 $bench->log(__DIR__);
