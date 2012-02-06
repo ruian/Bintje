@@ -1,0 +1,9 @@
+{
+    "hash": "3a565fdfa81751b49ac9b7be9d9fc6cf",
+    "packages": [
+        {
+            "package": "symfony\/finder",
+            "version": "2.1.0-dev"
+        }
+    ]
+}
