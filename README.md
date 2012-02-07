@@ -1,6 +1,7 @@
 Bintje
 ========
 ![Bintje](http://img821.imageshack.us/img821/4438/bencha.jpg)
+[![Build Status](https://secure.travis-ci.org/ruian/Bintje.png)](http://travis-ci.org/ruian/Bintje)
 PHP Benchmark
 =============
 
