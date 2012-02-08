@@ -35,7 +35,7 @@ Small tool to make bench from portion of code
 
     ```php
     Ruian\Benchmark\Bintje->wait()
-    //Break the process, will endwait() is not launch
+    //Break the process, while endwait() is not launch
     //@return void
     ```
 
@@ -53,6 +53,6 @@ Small tool to make bench from portion of code
 
     ```php
     Ruian\Benchmark\Bintje->log($path)
-    //Write your bench result into a file called bintje.log with the path you referer
+    //Write your bench result into a file called bintje.log with the path you referrer
     //@return void
     ```
