@@ -18,7 +18,7 @@ for ($i=0; $i < $length; $i++) {
     echo $test[$i];
 }
 
-// Wait because we need to make the pointer at the beginning 
+// Wait because we need to put the pointer at the beginning 
 $bench->wait();
 reset($test);
 $bench->endwait();
